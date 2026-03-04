@@ -17,16 +17,6 @@ pipeline {
             }
         }
 
-        stage('Docker Diagnostics') {
-            steps {
-                // This will tell us if Jenkins can actually run Docker
-                sh 'docker version'
-            }
-        }
-    }
-}
-
-'''
         stage('Build Frontend Image') {
             steps {
                 sh """
@@ -137,4 +127,3 @@ pipeline {
         }
     }
 }
-'''
