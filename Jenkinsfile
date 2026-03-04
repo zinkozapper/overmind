@@ -11,12 +11,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Docker Diagnostics') {
             steps {
                 // This will tell us if Jenkins can actually run Docker
