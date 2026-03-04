@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REGISTRY = "ghcr.io"
-        ORG = "byu-life-sciences"
+        ORG = "zinkozapper"
         IMAGE_NAME = "overmind"
         CREDENTIAL_ID = "kchatt-github"
         FLEET_REPO = "engineering-fleet"
