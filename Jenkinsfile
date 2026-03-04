@@ -6,7 +6,7 @@ pipeline {
         ORG = "zinkozapper"
         IMAGE_NAME = "overmind-agents"
         CREDENTIAL_ID = "zinko-github"
-        FLEET_REPO = "overmind-agents"
+        FLEET_REPO = "overmind-fleet"
         SC2PATH = "/StarCraftII"
     }
 
