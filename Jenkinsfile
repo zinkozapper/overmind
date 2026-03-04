@@ -4,9 +4,9 @@ pipeline {
     environment {
         REGISTRY = "ghcr.io"
         ORG = "zinkozapper"
-        IMAGE_NAME = "overmind"
+        IMAGE_NAME = "overmind-agents"
         CREDENTIAL_ID = "zinko-github"
-        FLEET_REPO = "engineering-fleet"
+        FLEET_REPO = "overmind-agents"
         SC2PATH = "/StarCraftII"
     }
 
