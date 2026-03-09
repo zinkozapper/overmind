@@ -63,13 +63,6 @@ pipeline {
         }
 
         stage('Update Fleet Repo') {
-            when {
-                anyOf {
-                    branch 'main'
-                    branch 'development'
-                }
-            }
-
             steps {
                 withCredentials([usernamePassword(
                         credentialsId: env.CREDENTIAL_ID,
